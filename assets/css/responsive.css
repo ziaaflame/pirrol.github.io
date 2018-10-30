@@ -1,0 +1,84 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    .brand img {
+  padding: 0 53px;
+}
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .main-menu ul {
+  float: left;
+}
+.hero-area {
+  background-image: none;
+}
+.skill-bg {
+  display: none;
+}
+.number {
+  padding: 20px;
+}
+.single-work-item {
+  height: 240px;
+}
+.work-bg {
+  height: 240px;
+}
+.brand img {
+  padding: 0 37px;
+}
+
+.footer-right li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.footer-right a {
+    padding: 20px;
+}
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .logo-area img {
+  display: none;
+}
+.hero-area {
+  background-image: none;
+}
+.main-menu a {
+  padding: 10px 11px;
+}
+.main-menu {
+  margin-top: 10px;
+}
+.hero-content {
+  text-align: center;
+}
+.skill-bg {
+  display: none;
+}
+.number {
+  padding: 20px;
+}
+.single-work-item {
+  width: 100%;
+}
+.work-bg {
+  height: 300px;
+}
+.brand img {
+  padding: 25px 140px;
+}
+.footer-right a {
+  padding: 12px;
+}
+.footer-right {
+  text-align: center;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

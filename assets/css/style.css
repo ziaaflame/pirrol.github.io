@@ -1,0 +1,443 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #191919;
+
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+
+}
+a:hover { text-decoration: none }
+
+
+ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+/*start header area*/
+
+header.site-header {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.main-menu li {
+    display: inline-block;
+    position: relative;
+}
+.main-menu a {
+    color: #191919;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 45px 15px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.main-menu a:hover{
+    color: #0FC9C3;
+}
+
+.logo-area img {
+    display: block;
+    margin-top: 35px;
+}
+
+/*end header area*/
+
+/*start hero area*/
+.hero-area{background-image: url(../img/hero-bg.jpg);}
+
+.hero-area {
+    background-color: #E9E9E9;
+    height: 670px;
+    display: table;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.hero-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hero-content {
+    padding: 20px;
+}
+
+.hero-content h2 {
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.hero-content p {
+    color: #787878;
+    font-size: 18px;
+}
+
+
+a.boxed-btn {
+    background: none repeat scroll 0 0 #0FC9C3;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: montserrat;
+    font-weight: 500;
+    margin-top: 25px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+/*end hero area*/
+
+/*start about area*/
+
+
+section.section-block {
+    padding: 100px 0;
+}
+.about-content > p {
+    margin: 0;
+}
+h3.section-heading {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+img.signature {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+/*end about area*/
+
+/*start skill area*/
+
+.skill-bg{background-image: url(../img/skill-bg.jpg);}
+
+section.skill-section {
+    background: none repeat scroll 0 0 #F8F9F9;
+    display: table;
+    height: 570px;
+    position: relative;
+    width: 100%;
+}
+.skill-section-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.skill-bg h6 {
+    font-size: 12px;
+}
+.skil-content h6 {
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+
+.skil-content h6 {
+    position: relative;
+}
+.skil-content h6:after {
+    background: none repeat scroll 0 0 #0FC9C3;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.skil-content h6:before {
+    background: none repeat scroll 0 0 #E4E4E4;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    right: 0;
+    position: absolute;
+    width: 30%;
+    z-index: 2;
+}
+
+.skil-content h6:nth-child(3):before{
+    width: 15%;
+}
+.skil-content h6:nth-child(4):before{
+    width: 45%;
+}
+
+
+.skil-content h3.section-heading {
+    margin-bottom: 35px;
+}
+.skill-bg {
+    background-color: #E9E9E9;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+}
+/*end skill area*/
+
+
+.number {
+    background: none repeat scroll 0 0 #0FC9C3;
+    color: #FFFFFF;
+    display: table;
+    height: 240px;
+    width: 100%;
+}
+.number-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.single-number-item {
+    position: relative;
+}
+.number-icon > img {
+    left: 0;
+    position: absolute;
+    top: 5px;
+}
+.number-meta {
+    padding-left: 60px;
+}
+.number-meta span {
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 500;
+}
+.number-meta > p {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+/*end number section*/
+/*start work section*/
+
+.work-bg-1{background-image: url(../img/work-bg-1.jpg);}
+.work-bg-2{background-image: url(../img/work-bg-2.jpg);}
+.work-bg-3{background-image: url(../img/work-bg-3.jpg);}
+.work-bg-4{background-image: url(../img/work-bg-4.jpg);}
+.work-bg-5{background-image: url(../img/work-bg-5.jpg);}
+.work-bg-6{background-image: url(../img/work-bg-6.jpg);}
+.work-bg-7{background-image: url(../img/work-bg-7.jpg);}
+.work-bg-8{background-image: url(../img/work-bg-8.jpg);}
+
+.work-bg {
+    background-color: #DDDDDD;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.single-work-item {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    height: 300px;
+    width: 25%;
+    position: relative;
+    z-index: 1;
+}
+.single-work-item:hover .workpreview{
+    opacity: .85;
+}
+
+.workpreview {
+    background: none repeat scroll 0 0 #141414;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    transition: .3s;
+}
+
+.workpreview > img {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -15px;
+
+}
+a.load-more-btn {
+    background: none repeat scroll 0 0 #F5F5F5;
+    color: #8E8E8E;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+/*end work section*/
+
+/*start video section*/
+.video-area{background-image: url(../img/video-bg.jpg);}
+
+.video-area {
+    background-color: #E9E9E9;
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+    position: relative;
+    width: 100%;
+}
+.video-play-btn {
+    background: none repeat scroll 0 0 #0FC9C3;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 85px;
+    left: 50%;
+    line-height: 85px;
+    margin-left: -2px;
+    margin-top: -42.5px;
+    padding-left: 5px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 85px;
+    color: #fff;
+}
+/*end video section*/
+
+/*start service section*/
+.section-block.gray-bg{
+    background: #F5F5F5;
+    min-height: 535px;
+}
+
+.service-icon img {
+    display: inline-block;
+    margin-bottom: 35px;
+}
+.single-service-item {
+    margin-bottom: 60px;
+}
+/*end service section*/
+
+/*start testimonial section*/
+
+
+.testimonial-section {
+    background: none repeat scroll 0 0 #0FC9C3;
+    color: #FFFFFF;
+    display: table;
+    height: 500px;
+    width: 100%;
+}
+.testimonial-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+p.article {
+    font-size: 24px;
+}
+p.min {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.testimonial-list .owl-dots button.owl-dot {
+    background: none repeat scroll 0 0 #B0E8E6;
+    border-radius: 50%;
+    height: 8px;
+    left: 50%;
+    margin-right: 10px;
+    position: absolute;
+    width: 8px;
+    display: block;
+}
+
+/*end testimonal*/
+
+/*start brand*/
+
+.brand {
+    float: left;
+}
+.brand-images {
+    display: table;
+    width: 100%;
+    height: 200px;
+
+}
+.brand-images-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.brand img {
+    display: inline-block;
+    padding: 0 75px;
+    text-align: center;
+}
+/*end brand*/
+
+/*start form*/
+
+.need-project-title {
+    margin-bottom: 30px;
+}
+.gray-bg form input, textarea {
+    border: medium none;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer-area p {
+    color: #BCBCBC;
+}
+.footer-right a {
+    color: #BCBCBC;
+}
+.footer-area h4 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer-area {
+    background: none repeat scroll 0 0 #131313;
+    padding: 70px 0;
+}
+
+
